@@ -5,5 +5,8 @@ void  setup()  {
 }
 
 void loop() {
-  Serial.print("HALLO\n");
+  int val;
+  val = analogRead(0);
+  Serial.println(val);
+  delay(100);
 }
